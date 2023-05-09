@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+    background-color: #F2EBE5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 400px auto 400px;
+    padding: 24px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 8px 24px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 16px;
+}
+
+.dog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle img {
+    min-height: 100%;
+    object-fit: fill;
+}
+
+/* .dog img {
+    width: 65%;
+} */

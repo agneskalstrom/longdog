@@ -1,0 +1,64 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+  padding: 48px;
+}
+
+.dog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dog img {
+  width: 300px;
+}
+
+.top {
+  position: relative;
+  top: 1px;
+}
+
+.bottom {
+  position: relative;
+  top: -1px;
+}
+
+.top, .middle, .bottom {
+  overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  bottom: 48px;
+  z-index: 1;
+  display: flex;
+  grid-gap: 16px;
+  align-items: center;
+}
+
+button {
+  background: black;
+  color: #F2EBE5;
+  border: none;
+  border-radius: 100px;
+  font-size: 18px;
+  cursor: pointer;
+  word-break: break-all;
+  height: 48px;
+  width: 48px;
+  font-size: 24px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.bottom-section {
+  height: 40px;
+}
+
+.length-text {
+  word-break: break-all;
+  max-width: 90vw;
+}
