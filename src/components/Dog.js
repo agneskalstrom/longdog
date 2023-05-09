@@ -30,7 +30,7 @@ function Dog() {
         <section className="left">
           <div className="sticky">
                 <button onClick={onAddBtnClick}>+</button>
-                <p className="length-text">Longboy is lo{o}ng</p>
+                <p className="length-text">Long dog is lo{o}ng</p>
           </div>
         </section>
         <section className="dog">
