@@ -74,7 +74,7 @@ button:hover {
 
 @media screen and (max-width: 640px) {
   .length-text {
-    font-size: 80px;
+    font-size: 100px;
   }
 
   .bg-text {
