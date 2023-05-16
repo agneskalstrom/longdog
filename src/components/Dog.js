@@ -17,7 +17,6 @@ function Dog() {
   const [middle, setMiddle] = useState([]);
   const [o, setO] = useState([]);
 
-
   const onAddBtnClick = (event) => {
     setMiddle(middle.concat(<InsertMiddle key={middle.length} />));
     setO(o.concat(<InsertO key={o.length} />));
@@ -27,10 +26,12 @@ function Dog() {
   return (
     <>
       <main>
+        <div class="bg-text">
+          <p className="length-text">Long dog is lo{o}ng</p>
+        </div>
         <section className="left">
           <div className="sticky">
-                <button onClick={onAddBtnClick}>+</button>
-                <p className="length-text">Long dog is lo{o}ng</p>
+            <button onClick={onAddBtnClick}>+</button>
           </div>
         </section>
         <section className="dog">
@@ -38,8 +39,7 @@ function Dog() {
           {middle}
           <Bottom />
         </section>
-        <section className="right">
-        </section>
+        <section className="right"></section>
       </main>
       <div className="bottom-section" ref={ref}></div>
     </>
